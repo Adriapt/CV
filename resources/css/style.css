@@ -241,7 +241,7 @@ h3::after{
 *****************/
 
 .front-page{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)), url(/resources/img/sea-water-waves-texture-blue.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)), url(./resources/img/sea-water-waves-texture-blue.jpg);
     background-attachment: fixed;
     height: 100vh;
     background-size: cover;
@@ -266,7 +266,7 @@ h3::after{
 /* Medium screens: from 1201px to 1690x */
 @media only screen and (max-width: 1690px) {
     .front-page{
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)), url(/resources/img/sea-water-waves-texture-blue.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)), url(./resources/img/sea-water-waves-texture-blue.jpg);
     }
     .title{
         font-size: 650%;
@@ -276,7 +276,7 @@ h3::after{
 /* Small screens: from 661px to 1200px */
 @media only screen and (max-width: 1200px) {
     .front-page{
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)), url(/resources/img/sea-water-waves-texture-blue.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)), url(./resources/img/sea-water-waves-texture-blue.jpg);
     }
     .title{
         font-size: 500%;
@@ -286,7 +286,7 @@ h3::after{
 /* Small phones: from 481px to 660px */
 @media only screen and (max-width: 660px) {
     .front-page{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)), url(/resources/img/sea-water-waves-texture-blue.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)), url(./resources/img/sea-water-waves-texture-blue.jpg);
     }
     .title{
         font-size: 300%;
@@ -297,7 +297,7 @@ h3::after{
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     .front-page{
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)), url(/resources/img/sea-water-waves-texture-blue.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)), url(./resources/img/sea-water-waves-texture-blue.jpg);
     }
     .title{
         font-size: 210%;
@@ -477,7 +477,7 @@ h3::after{
 
 .studies{
 
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)), url(/resources/img/sea2.jpg) ;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)), url(./resources/img/sea2.jpg) ;
     background-attachment: fixed;
     height: 100vh;
     background-size: cover;
