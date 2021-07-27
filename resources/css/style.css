@@ -329,6 +329,7 @@ h3::after{
     padding-top: 17%;
     margin-left: 23%;
     margin-right: 23%;
+    margin-bottom: 10%;
 }
 .about-me-text{
     font-size: 180%;
@@ -443,7 +444,7 @@ h3::after{
         top: 10%;
     }
     .myself{
-        padding-top: 40%;
+        padding-top: 35%;
     }
     .about-me-text{
         font-size: 90%;
@@ -454,22 +455,31 @@ h3::after{
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
     .about-me-title{
         font-size: 170%;
-        top: 10%;
+        top: 5%;
         left: 15%;
     }
     .myself{
         padding-top: 35%;
     }
     .about-me-text{
-        font-size: 70%;
+        font-size: 80%;
     
     }
     .btn:link, .btn:visited{
         font-size: 80%;
     }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .about-me-text{
+        font-size: 75%;
+    
+    }
+
 }
 
 /****************
@@ -614,8 +624,8 @@ ul.rb li .timestamp {
     .studies{
         height: auto;
         background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,8)), url(/CV/resources/img/sea2.jpg) ;
-        background-attachment:scroll;
-        height: 100vh;
+        background-attachment:fixed;
+        height: auto;
         background-size: cover;
         background-position: center;
         position: relative;
@@ -673,6 +683,21 @@ ul.rb li .timestamp {
     .studies-subtitle{
         font-size: 140%;
     }
-    .stu
+
+}
+
+@media only screen and (max-width: 320px) {
+    .studies-title{
+        font-size: 130%;
+        left: 15%;
+    }
+    .timelines{
+        padding-top: 35%;
+        font-size: 60%;   
+    }
+    .studies-subtitle{
+        font-size: 140%;
+        padding-left: 5%;
+    }
 
 }
