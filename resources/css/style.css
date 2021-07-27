@@ -491,7 +491,7 @@ h3::after{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)), url(/CV/resources/img/sea2.jpg) ;
     background-attachment: fixed;
     height: 100vh;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     position: relative;
 }
@@ -625,7 +625,6 @@ ul.rb li .timestamp {
         height: auto;
         background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,8)), url(/CV/resources/img/sea2.jpg) ;
         background-attachment:fixed;
-        height: auto;
         background-size: cover;
         background-position: center;
         position: relative;
