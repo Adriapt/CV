@@ -458,12 +458,13 @@ h3::after{
     .about-me-title{
         font-size: 170%;
         top: 10%;
+        left: 15%;
     }
     .myself{
-        padding-top: 40%;
+        padding-top: 35%;
     }
     .about-me-text{
-        font-size: 75%;
+        font-size: 70%;
     
     }
     .btn:link, .btn:visited{
