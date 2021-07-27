@@ -472,11 +472,18 @@ h3::after{
         font-size: 80%;
     }
 }
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-height: 736px) and (max-width: 415px) {
 
     .about-me-text{
-        font-size: 75%;
+        font-size: 70%;
+    
+    }
+
+}
+@media only screen and (max-width: 375px) {
+
+    .about-me-text{
+        font-size: 65%;
     
     }
 
