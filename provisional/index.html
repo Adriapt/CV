@@ -7,7 +7,7 @@
         <meta name="description" content="Adrià Pagès Torruella CV">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,6 @@
         <title>Adrià Pagès Torruella</title>
     </head>
     <body>
-        
         <div class="menu-div">
             <a class="display-nav-icon js--nav-icon"><ion-icon name="menu" class="naviicon"></ion-icon></a>
         </div>
@@ -107,12 +106,10 @@
                 </div>
             </div>
         </div>
-    
-        <section class="front-page content">
-                <h1 class="title">Hi, I'm Adrià</h1>
+        <section class="content front-page">
+            <h1 class="title">Hi, I'm Adrià</h1>
         </section>
-        
-        <section class=" about-me content">
+        <section class="content about-me">
             <h1 class="about-me-title">About me...</h1>
             <div class="myself">
                 <p class="about-me-text">My name is Adrià Pagès Torruella. Currently I'm studying my fourth and last year at the UPC Computer Science degree. I'm specialized in IT technologies and my main interests are cybersecurity/ethical hacking and systems management.<br>
@@ -121,7 +118,6 @@
                 <a class="btn btn-ghost js--btn" href="#id-sidebar">More details</a>
             </div>
         </section>
-
         <section class="content studies">
             <h1 class="studies-title">My Formation...</h1>
             <div class="timelines">
@@ -184,9 +180,8 @@
                 </div>
             </div>
         </section>
-                <!--
-        <section class="professional-experience">
-            <h1 class="experience-title">Professional experience...</h1>
+        <section class="content professional-experience">
+            <h1 class="studies-title">Professional experience...</h1>
             <div class="experience">
                 <div class="item">
                     <div class="rb-container">
@@ -215,8 +210,8 @@
             <a class="btn btn-ghost js--btn2" href="#id-sidebar">Contact me!</a>
 
         </section>
-        <section class="skills-section">
-            <h1 class="skills-title">My Skills...</h1>
+        <section class="content skills-section">
+            <h1 class="studies-title">My Skills...</h1>
             <div class="skills">
                 <div class="item personal-skills">
                     <ion-icon name="person" class="per-icon"></ion-icon>
@@ -266,7 +261,7 @@
                 </div>
             </div>
         </section>
-        -->
+
        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -278,49 +273,24 @@
             const btn = document.querySelector('.js--nav-icon');
             const menu = document.querySelector('.js--sidebar');
             const cross = document.querySelector('.cross');
-            var media = window.matchMedia("(max-width: 600px)");
             const details = document.querySelector('.js--btn');
-             /*
             const contact = document.querySelector('.js--btn2');
-            */
             btn.addEventListener('click', e =>{
-                if(!media.matches){
-                    menu.style.visibility = 'visible';
-                    menu.style.opacity = '1';
-                    btn.style.visibility = 'hidden';
-                    btn.style.opacity = '0';
-                    $( ".content" ).css( "margin", "0 0 0 var(--sidebar-margin)" );
-                }
-                else{
-                    menu.style.visibility = 'visible';
-                    menu.style.opacity = '1';
-                    btn.style.visibility = 'hidden';
-                    btn.style.opacity = '0';
-                    $( ".content" ).css( "margin", "0 0 0 var(--sidebar-margin)" );
-                    $( ".content" ).css( "display", "none" );
-                }
+                menu.style.visibility = 'visible';
+                menu.style.opacity = '1';
+                btn.style.visibility = 'hidden';
+                btn.style.opacity = '0';
+                $( ".content" ).css( "margin", "0 0 0 15%" );
             
             });
-            
             details.addEventListener('click', e =>{
-                 if(!media.matches){
-                    menu.style.visibility = 'visible';
-                    menu.style.opacity = '1';
-                    btn.style.visibility = 'hidden';
-                    btn.style.opacity = '0';
-                    $( ".content" ).css( "margin", "0 0 0 var(--sidebar-margin)" );
-                }
-                else{
-                    menu.style.visibility = 'visible';
-                    menu.style.opacity = '1';
-                    btn.style.visibility = 'hidden';
-                    btn.style.opacity = '0';
-                    $( ".content" ).css( "margin", "0 0 0 var(--sidebar-margin)" );
-                    $( ".content" ).css( "display", "none" );
-                }
+                menu.style.visibility = 'visible';
+                menu.style.opacity = '1';
+                btn.style.visibility = 'hidden';
+                btn.style.opacity = '0';
+                $( ".content" ).css( "margin", "0 0 0 15%" );
             
             });
-            /*
             contact.addEventListener('click', e =>{
                 menu.style.visibility = 'visible';
                 menu.style.opacity = '1';
@@ -329,23 +299,13 @@
                 $( ".content" ).css( "margin", "0 0 0 15%" );
             
             });
-            */
+            
             cross.addEventListener('click', e =>{
-                if(!media.matches){
-                    menu.style.visibility = 'hidden';
-                    menu.style.opacity = '0';
-                    btn.style.visibility = 'visible';
-                    btn.style.opacity = '1';
-                    $( ".content" ).css( "margin", "0 0" );
-                }
-                else{
-                    menu.style.visibility = 'hidden';
-                    menu.style.opacity = '0';
-                    btn.style.visibility = 'visible';
-                    btn.style.opacity = '1';
-                    $( ".content" ).css( "margin", "0 0" );
-                    $( ".content" ).css( "display", "block" );
-                }
+                menu.style.visibility = 'hidden';
+                menu.style.opacity = '0';
+                btn.style.visibility = 'visible';
+                btn.style.opacity = '1';
+                $( ".content" ).css( "margin", "0 0" );
             });
         });
         </script>
